@@ -1,38 +1,108 @@
-.App {
+body {
+  background: url(food.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+ font-family:"Montserrat", serif; 
+ background-color: #dcedf7e4;
+ border-radius: 20px;
+ padding: 15px;
+}
+h2{
+  font-family:"Montserrat", serif; 
+  background-color: #eecc09ed;
+  border-radius: 20px;
+  font-size: 18px;
   text-align: center;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-add{
+  font-family:"Montserrat", serif;
+  background-color: #77cf40d7;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-delete{
+  color: rgb(49, 27, 196);
+  font-family:"Montserrat", serif;
+  background: none;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+.whole-plan{
+  width: 70%;
+  height: 100vh;
+}
+
+.myInput{
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 30px;
+  font-family:"Montserrat", serif;
+}
+
+textarea{
+  display: block;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  width: 70%;
+  height: 200px;
+  border-radius: 20px;
+  font-family:"Montserrat", serif;
+  padding: 10px;
+}
+.selected {
+  background-color: #fad106dd;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.default {
+  background-color: #dcedf7dc;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+p {
   color: white;
+  font-family:"Montserrat", serif;
+  font-size: 20px;
+}
+.field {
+  color: black;
+  font-size: 14px;
+  font-family:"Montserrat", serif;
+  
+}
+.title{
+  color: black;
+  font-size: 18px;
+  font-family:"Montserrat", serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
   }
-  to {
-    transform: rotate(360deg);
+  .container{
+    padding: 10px;
   }
 }
