@@ -43,7 +43,7 @@ Make sure you have the following installed:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/meal-planner.git
+   git clone https://github.com/your-username/meal-planner.git](https://github.com/NinaVol/Meal-Planner.git
    cd meal-planner
    ```
 2. Install dependencies:
